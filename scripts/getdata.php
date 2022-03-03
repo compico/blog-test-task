@@ -1,9 +1,6 @@
 <?php
 
-$SQL_SERVERNAME = 'localhost';
-$SQL_USERNAME = 'root';
-$SQL_PASSWORD = '';
-$SQL_DBNAME = 'test-task';
+require_once '../config.php';
 
 $conn = new mysqli($SQL_SERVERNAME, $SQL_USERNAME, $SQL_PASSWORD, $SQL_DBNAME);
 
